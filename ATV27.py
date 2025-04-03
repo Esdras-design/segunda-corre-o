@@ -1,0 +1,5 @@
+tupla_original = (1, 2, 3, 4, 5)
+lista = list(tupla_original)  
+lista.remove(3)  
+tupla_modificada = tuple(lista)  
+print(tupla_modificada)  
